@@ -60,6 +60,16 @@ plt.show()
 
 
 
+# Make predictions on validation dataset
+knn = KNeighborsClassifier()
+knn.fit(X_train, Y_train)
+predictions = knn.predict(X_validation)
+print("\n\nAccuracy score: " + str(accuracy_score(Y_validation, predictions)))
+print(confusion_matrix(Y_validation, predictions))
+print(classification_report(Y_validation, predictions))
+
+
+
 
 
 
