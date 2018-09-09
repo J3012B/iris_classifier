@@ -72,7 +72,3 @@ print(classification_report(Y_validation, predictions))
 
 
 
-
-
-######### https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-######### Next Chapter: 4 - Data Visualization
